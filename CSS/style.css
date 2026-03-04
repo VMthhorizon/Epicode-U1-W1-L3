@@ -24,6 +24,10 @@ main video {
   border-radius: 10px;
 }
 
+a {
+  color: rgb(0, 104, 104);
+}
+
 h1 {
   text-align: center;
 }
@@ -44,4 +48,17 @@ h1 {
 
 main hr {
   border-color: cyan;
+}
+
+.ingredients-container h3 {
+  font-weight: bold;
+}
+
+li {
+  margin: 1em 0;
+}
+
+footer {
+  width: 50%;
+  margin: 0 auto;
 }
