@@ -1,25 +1,47 @@
 header {
-text-align: center;
+  text-align: center;
 }
 
 header hr {
-    margin-bottom: 0;
-    border-color: rgb(210, 156, 30);
+  margin-bottom: 0;
+  border-color: rgb(210, 156, 30);
 }
 
 header p {
-    background-color: blanchedalmond;
-    color: rgb(0, 104, 104);
-    padding: 1em;
-    margin: 0;
+  background-color: blanchedalmond;
+  color: rgb(0, 104, 104);
+  padding: 1em;
+  margin: 0;
 }
 
 main {
-    width: fit-content;
-    margin: 0 auto;
+  width: 50%;
+  margin: 0 auto;
 }
 
-p .image-author {
-    color: grey;
-    text-align: center;
+main video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.image-author {
+  color: grey;
+  text-align: center;
+}
+
+#focaccia-feature {
+  color: red;
+}
+
+.receipt-links {
+  border-left: 3px solid rgb(180, 180, 0);
+  padding-left: 5px;
+}
+
+main hr {
+  border-color: cyan;
 }

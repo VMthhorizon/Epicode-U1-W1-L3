@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./CSS/style.css" />
-    <title>Document</title>
+    <title>Receipt</title>
   </head>
   <body>
     <header>
@@ -13,26 +13,26 @@
       <p>Part of <strong>A SIMPLY FABULOUS THANKSGIVING</strong></p>
     </header>
     <main>
-      <section>
+      <section class="image-container">
         <h1>Focaccia with Caramelized Onions,<br />Cranberries, and Brie</h1>
         <p>
           Wow your taste buds with this festive focaccia appetizer topped with
-          sweet caramelized onions tart<br />cranberries, and creamy brie. It
-          will become your new favorite holiday starter!
+          sweet caramelized onions tart cranberries, and creamy brie. It will
+          become your new favorite holiday starter!
         </p>
-        <video
-          width="640"
-          height="360"
-          poster="./Assets/assets/focaccia.png"
-          controls
-        >
+        <video poster="./Assets/assets/focaccia.png" controls>
           <source src="./Assets/assets/U1-D3-brotsky-bakery.mp4" />
         </video>
-        <p>Image:Sally Vegas</p>
-        <strong>FEATURED IN:</strong>
-        <div>
-          <a href="#">Fresh Cranberry Recipes That Go Beyond Sauce</a>
-        </div>
+        <p class="image-author">Image:Sally Vegas</p>
+        <p class="receipt-links">
+          <strong id="focaccia-feature">FEATURED IN:</strong><br /><a href="#"
+            >Fresh Cranberry Recipes That Go Beyond Sauce</a
+          >
+        </p>
+      </section>
+      <section class="ingredients-container">
+        <h2>Ingredients</h2>
+        <hr />
       </section>
     </main>
   </body>
